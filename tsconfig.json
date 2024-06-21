@@ -28,13 +28,21 @@
     }
   },
   "include": [
-    "next-env.d.js",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
     "**/*.js",
     "**/*.jsx",
-    ".next/types/**/*.js",
-    "app/page.jsx",
-    "app/layout.jsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    ".next/types/**/*.tsx",
+    "app/**/*.js",
+    "app/**/*.jsx",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "components/**/*.js",
+    "components/**/*.jsx",
+    "components/**/*.ts",
+    "components/**/*.tsx"
   ],
   "exclude": [
     "node_modules"
