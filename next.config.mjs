@@ -2,7 +2,7 @@
 const nextConfig = {
   output: "export", // <=== enables static exports
   basePath: "/portfolio",
-  assetPrefix: "/repository",
+  assetPrefix: "/portfolio/",
   reactStrictMode: true,
 };
 
