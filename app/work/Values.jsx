@@ -1,5 +1,5 @@
-// const path = "/portfolio";
-const path = "";
+const path = "/portfolio";
+// const path = "";
 
 export const projects = [
   {
