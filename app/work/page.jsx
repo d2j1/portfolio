@@ -15,82 +15,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 import WorkSliderBtns from "./WorkSliderBtns";
+import { projects } from "./Values";
 
-const projects = [
-  {
-    num: "01",
-    category: "Frontend",
-    title: "Portfolio",
-    description:
-      "This project is a dynamic and responsive web application built using Next.js, showcasing the power of JavaScript, HTML, and CSS. Tailwind CSS is employed to create a modern and visually appealing user interface.",
-    stack: [
-      {
-        name: "Html 5",
-      },
-      {
-        name: "Css 3",
-      },
-      {
-        name: "JavaScript",
-      },
-      {
-        name: "Next.js",
-      },
-    ],
-    image: "/portfolio/assets/portfolio.png",
-    live: "",
-    github: "",
-  },
-
-  {
-    num: "02",
-    category: "Frontend",
-    title: "Investment Calculator",
-    description:
-      "This project is helpful to calculate the return of the investment after few years",
-    stack: [
-      {
-        name: "Html 5",
-      },
-      {
-        name: "Css 3",
-      },
-      {
-        name: "JavaScript",
-      },
-      {
-        name: "React.js",
-      },
-    ],
-    image: "/portfolio/assets/investmentCalculator.png",
-    live: "",
-    github: "",
-  },
-
-  {
-    num: "03",
-    category: "Frontend",
-    title: "Tik Tak Toe",
-    description: "This is the tik tok toe game",
-    stack: [
-      {
-        name: "Html 5",
-      },
-      {
-        name: "Css 3",
-      },
-      {
-        name: "JavaScript",
-      },
-      {
-        name: "React.js",
-      },
-    ],
-    image: "/portfolio/assets/tiktactoe.png",
-    live: "",
-    github: "",
-  },
-];
 const Work = () => {
   const [project, setProject] = useState(projects[0]);
   const handleSlideChange = (swiper) => {
@@ -107,8 +33,9 @@ const Work = () => {
                 {project.num}
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-300 capitalize">
-                {project.category}
+                {project.title}
               </h2>
+              <p className="text-white/95">{project.category}</p>
               <p className="text-white/60">{project.description}</p>
               <ul className="flex gap-4 ">
                 {project.stack.map((item, index) => {
@@ -168,7 +95,7 @@ const Work = () => {
                         <Image
                           src={project.image}
                           fill
-                          className="object-cover"
+                          className="object-fill"
                           alt=""
                         />
                       </div>
