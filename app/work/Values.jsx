@@ -47,7 +47,7 @@ export const projects = [
         name: "React.js",
       },
     ],
-    image: path + "/assets/investmentCalculator.png",
+    image: path + "/assets/investmentCalculator",
     live: "https://d2j1.github.io/pp-investment-calculator",
     github: "https://github.com/d2j1/pp-investment-calculator",
   },
