@@ -23,8 +23,8 @@ export const projects = [
       },
     ],
     image: path + "/assets/portfolio.png",
-    live: "",
-    github: "",
+    live: "https://d2j1.github.io/portfolio/",
+    github: "https://github.com/d2j1/portfolio",
   },
 
   {
