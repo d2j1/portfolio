@@ -24,7 +24,7 @@ const ProjectCard = ({ project }) => {
   };
 
   return (
-    <div className="p-2 xl:mb-8 mb-8 mx-8 w-full xl:w-[500px] bg-[#27272c] text-white rounded-2xl">
+    <div className="p-2 xl:mb-8 mb-8 mx-8 w-[90%]  xl:w-[500px] bg-[#27272c] text-white rounded-2xl">
       <div className="mb-4 flex items-center justify-center">
         <MdOutlineWorkOutline className="text-2xl  mr-2" />
         <h2 className="text-2xl font-semibold  text-center">{project.title}</h2>
