@@ -4,7 +4,7 @@ const path = "/portfolio";
 export const projects = [
   {
     num: "01",
-    category: "Professional/Productive, Frontend",
+    category: "Professional / Productivity, Frontend",
     title: "Portfolio",
     description:
       "This project is a dynamic and responsive web application built using Next.js, showcasing the power of JavaScript, HTML, and CSS. Tailwind CSS is employed to create a modern and visually appealing user interface.",
