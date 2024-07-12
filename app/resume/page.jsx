@@ -56,27 +56,6 @@ const experience = {
     "This is the experience from previous company. Please edit it once design is completed",
   items: [
     {
-      company: "Deepraj Softwares",
-      position: "Software Engineer",
-      duration: "Feb-2024 to April-2024",
-    },
-
-    {
-      company: "Tech Mahindra",
-      position: "Software Engineer",
-      duration: "May-2021 to July-2023",
-    },
-    {
-      company: "Tech Mahindra",
-      position: "Software Engineer",
-      duration: "May-2021 to July-2023",
-    },
-    {
-      company: "Tech Mahindra",
-      position: "Software Engineer",
-      duration: "May-2021 to July-2023",
-    },
-    {
       company: "Tech Mahindra",
       position: "Software Engineer",
       duration: "May-2021 to July-2023",
